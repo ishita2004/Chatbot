@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body class="show-chatbot">
-    <button class="chatbot-toggler">
-        <span class="material-symbols-outlined">mode_comment</span>
-        <span class="material-symbols-outlined">close</span>
-    </button>
-    <div class="chatbot">
-        <header>
-            <h2>Chatbot</h2>
-        </header>
-        <ul class="chatbox"></ul>
-        <div class="chat-input">
-            <textarea placeholder="Enter a message...."></textarea>
-            <span id="send-btn" class="material-symbols-outlined">send</span>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot">
+            <header>
+                <h2>Chatbot</h2>
+            </header>
+            <ul class="chatbox"></ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message...."></textarea>
+                <span id="send-btn" class="material-symbols-outlined">send</span>
+            </div>
         </div>
+        <button class="chatbot-toggler">
+            <span class="material-symbols-outlined">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
+
